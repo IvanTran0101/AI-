@@ -91,7 +91,6 @@ goal_states = [
     [8, 7, 0, 6, 5, 4, 3, 2, 1]
 ]
 
-
 def misplaced_div2(state: List[int]) -> int:
     """
     Heuristic h1: số ô sai vị trí chia 2.
@@ -192,7 +191,6 @@ def expand(state: List[int]) -> List[List[int]]:
     return successors
 
 # ---- A* Search ----
-
 
 goal_index =0
 GOAL = goal_states[goal_index]
